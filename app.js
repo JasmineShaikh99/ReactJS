@@ -29,6 +29,8 @@
         </div>
 </div> */
 
+import React from 'react';
+import  ReactDOM  from 'react-dom/client';
 
 const Child1 = React.createElement('div', {id: 'Child1'}, 
                                     React.createElement('h1', {}, 'I m h1 tag in Child1'))
